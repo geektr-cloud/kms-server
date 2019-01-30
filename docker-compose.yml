@@ -1,0 +1,7 @@
+version: '3'
+services:
+  frp_server:
+    image: mikolatero/vlmcsd
+    restart: always
+    ports:
+      - "1688:1688"
